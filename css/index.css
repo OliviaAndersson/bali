@@ -1,0 +1,542 @@
+body, html{
+
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+
+}
+.content{
+  background-color: #fff;
+  width: 88%;
+  margin-left: calc(6% - 10px);
+  padding-top: 200px;
+
+}
+.left-menu p{
+  writing-mode: vertical-rl;
+  text-orientation: mixed;
+  text-decoration: none;
+  color: #000;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  text-transform: uppercase;
+	left: 0;
+  top: 45%;
+	margin-left: 0%;
+  display: block;
+  position: fixed;
+  width: 4%;
+  padding-left: 0;
+
+}
+
+.left-menu {
+width: 6%;
+background-color: #fff;
+position: fixed;
+}
+
+.title p{
+
+position: fixed;
+left: 95%;
+top: 40%;
+font-size: 17px;
+writing-mode: vertical-rl;
+text-orientation: mixed;
+text-transform: uppercase;
+font-family: 'Montserrat', sans-serif;
+color: #000;
+}
+
+.container, .mob{
+  position: relative;
+  width: 97.5%;
+  float: left;
+  margin-bottom: 2px;
+  margin-left: 1px;
+  margin-right: 1px;
+
+}
+
+.container{
+display: block;
+
+}
+
+.mob{
+  display: none;
+  z-index: 1;
+
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+  float: left;
+}
+
+
+.orange {
+  position: absolute;
+  top: 10px;
+  bottom: 0;
+  left: 20px;
+  right: 0;
+  height: 96.8%;
+  width: 99%;
+  opacity: 0;
+  transition: .7s ease;
+  background-color: #DA9F89;
+}
+
+.container:hover .orange {
+  opacity: 1;
+}
+
+.text {
+  color: white;
+  font-size: 30px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+}
+
+.grey {
+  position: absolute;
+  top: 10px;
+  bottom: 0;
+  left: 20px;
+  right: 0;
+  height: 94%;
+  width: 99%;
+  opacity: 0;
+  transition: .7s ease;
+  background-color: #BDBCB9;
+}
+
+.container:hover .grey {
+  opacity: 1;
+}
+
+.blue {
+  position: absolute;
+  top: 10px;
+  bottom: 0;
+  left: 20px;
+  right: 0;
+  height: 96.8%;
+  width: 99%;
+  opacity: 0;
+  transition: .7s ease;
+  background-color: #78B6B8;
+}
+
+.container:hover .blue {
+  opacity: 1;
+}
+
+.green {
+  position: absolute;
+  top: 10px;
+  bottom: 0;
+  left: 20px;
+  right: 0;
+  height: 94%;
+  width: 99%;
+  opacity: 0;
+  transition: .7s ease;
+  background-color: #606D5B;
+}
+
+.container:hover .green {
+  opacity: 1;
+}
+.dark {
+  position: absolute;
+  top: 10px;
+  bottom: 0;
+  left: 20px;
+  right: 0;
+  height: 94%;
+  width: 99%;
+  opacity: 0;
+  transition: .7s ease;
+  background-color: #11152A;
+}
+
+.container:hover .dark {
+  opacity: 1;
+}
+
+.brown {
+  position: absolute;
+  top: 10px;
+  bottom: 0;
+  left: 20px;
+  right: 0;
+  height: 94%;
+  width: 99%;
+  opacity: 0;
+  transition: .7s ease;
+  background-color: #7A7159;
+}
+
+.container:hover .brown {
+  opacity: 1;
+}
+
+.water {
+  position: absolute;
+  top: 10px;
+  bottom: 0;
+  left: 20px;
+  right: 0;
+  height: 97.1%;
+  width: 99%;
+  opacity: 0;
+  transition: .7s ease;
+  background-color: #7A969C;
+}
+
+.container:hover .water {
+  opacity: 1;
+}
+
+.beige {
+  position: absolute;
+  top: 10px;
+  bottom: 0;
+  left: 20px;
+  right: 0;
+  height: 94%;
+  width: 99%;
+  opacity: 0;
+  transition: .7s ease;
+  background-color: #DCB487;
+}
+
+.container:hover .beige {
+  opacity: 1;
+}
+
+.surf {
+  position: absolute;
+  top: 10px;
+  bottom: 0;
+  left: 20px;
+  right: 0;
+  height: 94%;
+  width: 99%;
+  opacity: 0;
+  transition: .7s ease;
+  background-color: #6EDED5;
+}
+
+.container:hover .surf {
+  opacity: 1;
+}
+
+.light-green {
+  position: absolute;
+  top: 10px;
+  bottom: 0;
+  left: 20px;
+  right: 0;
+  height: 94%;
+  width: 99%;
+  opacity: 0;
+  transition: .7s ease;
+  background-color: #A8C78E;
+}
+
+.container:hover .light-green {
+  opacity: 1;
+}
+
+.mat {
+  position: absolute;
+  top: 10px;
+  bottom: 0;
+  left: 20px;
+  right: 0;
+  height: 92.5%;
+  width: 99%;
+  opacity: 0;
+  transition: .7s ease;
+  background-color: #7CA04C;
+}
+
+.container:hover .mat {
+  opacity: 1;
+}
+
+.purple {
+  position: absolute;
+  top: 10px;
+  bottom: 0;
+  left: 20px;
+  right: 0;
+  height: 96.8%;
+  width: 99%;
+  opacity: 0;
+  transition: .7s ease;
+  background-color: #87706D;
+}
+
+.container:hover .purple {
+  opacity: 1;
+}
+
+.column{
+background: #fff;
+width: 50%;
+float: left;
+
+}
+
+.column img{
+
+  width: 99%;
+  height: auto;
+  padding: 10px 20px;
+}
+
+@media screen and (max-width: 1680px) {
+
+	.purple {
+
+  height: 97.6%;
+  width: 99%;
+
+}
+
+.mat {
+
+  height: 94%;
+  width: 99%;
+
+}
+
+	.light-green {
+  height: 95.2%;
+  width: 99%;
+
+}
+
+.beige {
+
+  height: 95.2%;
+  width: 99%;
+
+}
+.surf {
+
+  height: 95.2%;
+  width: 99%;
+
+}
+
+	.water {
+
+  height: 97.8%;
+  width: 99%;
+
+}
+
+	.brown {
+
+  height: 95%;
+  width: 99%;
+
+}
+
+.dark {
+
+  height: 95%;
+  width: 99%;
+
+}
+.green {
+
+  height: 96%;
+  width: 99%;
+
+}
+
+.blue {
+
+  height: 97.5%;
+  width: 99%;
+
+}
+
+.grey {
+  height: 95.3%;
+  width: 99%;
+
+}
+.orange {
+  height: 97.4%;
+  width: 99%;
+
+}
+
+
+
+}
+
+
+@media screen and (max-width: 1570px) {
+
+
+.purple {
+
+  height: 96.8%;
+  width: 99%;
+
+}
+
+.mat {
+
+  height: 92.5%;
+  width: 99%;
+
+}
+
+	.light-green {
+  height: 94%;
+  width: 99%;
+
+}
+
+.beige {
+
+  height: 94%;
+  width: 99%;
+
+}
+.surf {
+
+  height: 94%;
+  width: 99%;
+
+}
+
+	.water {
+
+  height: 97.1%;
+  width: 99%;
+
+}
+
+	.brown {
+
+  height: 94%;
+  width: 99%;
+
+}
+
+.dark {
+
+  height: 94%;
+  width: 99%;
+
+}
+
+.green {
+
+  height: 94%;
+  width: 99%;
+
+}
+.blue {
+
+  height: 96.8%;
+  width: 99%;
+
+}
+
+.grey {
+  height: 94%;
+  width: 99%;
+
+}
+.orange {
+  height: 96.8%;
+  width: 99%;
+
+}
+
+
+
+}
+
+@media screen and (max-width: 600px){
+
+  .link a{
+    text-align: center;
+    padding-left: 40%;
+
+  }
+
+    .left-menu p{
+  display: none;
+
+    }
+
+.left-menu{
+
+
+}
+
+
+  .title p{
+  display: none;
+  }
+
+.container{
+  display: none;
+  }
+
+  .content{
+
+    height: 0;
+
+  }
+
+.column{
+width: 100%;
+padding-left: 0;
+margin: 0;
+}
+
+.column img{
+
+padding-left: 10px;
+
+}
+
+
+  .mob{
+  display: block;
+  position: relative;
+
+  }
+
+.purple {
+
+display: none;
+
+}
+
+
+}
